@@ -1,3 +1,13 @@
+# Implications of Language Choice for Algorithmic Efficiency in Low-Power Computing
+
+## Abstract
+This repository accompanies the research paper "Implications of Language Choice for Algorithmic Efficiency in Low-Power Computing." The study investigates how the choice of programming language—specifically Python and C++—affects the computational efficiency of common algorithms on resource-constrained (low-power) systems. By benchmarking QuickSort, recursive Fibonacci, and matrix multiplication in both languages, we provide empirical evidence on execution time differences, scalability, and the impact of language-level optimizations (such as NumPy in Python). The results inform best practices for algorithm implementation in environments where power and performance are critical, such as embedded systems, IoT devices, and mobile platforms.
+
+## Project
+Modern computing increasingly relies on low-power devices, making algorithmic efficiency a key concern. While high-level languages like Python offer rapid development and ease of use, lower-level languages like C++ are often presumed to deliver superior performance. This project systematically compares the two languages across several classic algorithms, providing insights for researchers, engineers, and practitioners designing software for low-power environments.
+
+---
+
 # Algorithm Performance Comparison: Python vs C++
 
 This project provides a performance comparison between Python and C++ implementations of three common algorithms:
